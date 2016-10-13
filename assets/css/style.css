@@ -1,0 +1,66 @@
+html, body{
+  height:100%;
+}
+
+body{
+  background-image: url(../images/blueWallpaper.jpg);
+  text-align: center;
+
+}
+
+#wrapper{
+  margin:2.5% auto;
+  background-color: azure;
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
+}
+
+#subwrapper{
+  position: relative;
+  top:15%;
+}
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
+}
+
+img{
+  height:200px;
+}
+
+h1{
+  font-family: 'Bungee Inline', cursive;
+  font-size: -webkit-xxx-large;
+  color:black;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid blue;
+  background: pink;
+}
+
+
+
+button:hover {
+  border:2px solid blue;
+  background: pink;
+}
